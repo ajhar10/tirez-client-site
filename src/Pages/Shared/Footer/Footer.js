@@ -10,20 +10,22 @@ const Footer = () => {
                     {/* Column1 */}
                     <div className="col">
                         <h4>TIREZ BICYCLE SHOP</h4>
-                        <ui className="list-unstyled">
+
+                        <h5 className="list-unstyled">
                             <li>01639076052</li>
                             <li>Dhaka, Bangladesh</li>
                             <li>10 Streeet Mirpur</li>
-                        </ui>
+                        </h5>
                     </div>
                     {/* Column2 */}
                     <div className="col">
                         <h4>Stuff</h4>
-                        <ui className="list-unstyled">
+
+                        <h5 className="list-unstyled">
                             <li>Ajhar RImon</li>
                             <li>Emtiaz Shariar</li>
                             <li>Ali Bokhary</li>
-                        </ui>
+                        </h5>
                     </div>
 
                 </div>
