@@ -6,6 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 import auth from '../../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 const Login = () => {
 
@@ -66,13 +67,14 @@ const Login = () => {
                     <Form.Control ref={passwordRef} type="password" placeholder="Password" required />
                 </Form.Group>
 
-                <Button className='d-block w-50 mx-auto mb-3' variant="info" type="submit">
+                <Button className='d-block mw-100 mx-auto mb-3' variant="info" type="submit">
                     Submit
                 </Button>
             </Form>
             {errorElement}
             <p >Are you new to tirez? <Link onClick={handleRegister} to='/register' className='text-danger text-decoration-none fs-5' > Please Register.</Link></p>
             <p>Forget Password? <button className='btn btn-link text-decoration-none' onClick={handleForgetPassword}>Reset Password!</button></p>
+            <SocialLogin></SocialLogin>
             <ToastContainer />
         </div>
     );
