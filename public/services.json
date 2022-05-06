@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "SINTERO PLUS MAN RIGID 28inch",
+        "image": "https://i.ibb.co/W5xkMY6/sintero.png",
+        "description": "Frame | ALUMINIUM SUPERLIGHT TREKKING COMFORT, HYDROFORMED TUBING, INNER CABLE ROUTING",
+        "price": "763.77",
+        "quantity": "20",
+        "supplier": "Adam Mundo"
+    },
+    {
+        "_id": 2,
+        "name": "SPRINT E-ADVENTURE 28inch",
+        "image": "https://i.ibb.co/tPDbyVY/sprint.jpg",
+        "description": "Frame | ALLOY  Fork | SUNTOUR SF16-NEX DS HLO 700Cx28.6x250mm, TRAVEL 63mm, THREADLESS, DISC BRAKE ONLY",
+        "price": "799",
+        "quantity": "10",
+        "supplier": "Nikolaj Coster-Waldau"
+    },
+    {
+        "_id": 3,
+        "name": "HARMONY LADY E6000 NEXUS 8 Di2",
+        "image": "https://i.ibb.co/cbCnwSy/3.jpg",
+        "description": "Frame | ALLOY, INNER CABLE ROUTING Fork | SUNTOUR NEX DS HLO Head parts | SHOCKBLAZE, H117DM, AHEAD",
+        "price": "2099",
+        "quantity": "16",
+        "supplier": "Peter Dinklage"
+    },
+    {
+        "_id": 4,
+        "name": "RIMINI, 24 SPEED, 600A",
+        "image": "https://i.ibb.co/pXzdy9p/ramini.jpg",
+        "description": "Fork | STEEL UNICROWN 600Ax180mm, 1-1/8 OVERSIZE, TAPERED Head parts | NECO, 846BK, 1-1/8inch AHEAD Wheel size | 24-Weight | 15 kg",
+        "price": "229",
+        "quantity": "30",
+        "supplier": "Isaac Hempstead"
+    },
+    {
+        "_id": 5,
+        "name": "S5 PRO TIAGRA",
+        "image": "https://i.ibb.co/Y3dMZh8/s5pro.jpg",
+        "description": "Frame | CARBON ROAD w/CABON FORK AND INTEGRATED AERO SEAT POST Head parts | FSA, ORBIT C-40-ACB Handlebar | FSA ENERGY COMPACT Stem | FSA ENERGY",
+        "price": "2064.03",
+        "quantity": "6",
+        "supplier": "Jason Momoa"
+    },
+    {
+        "_id": 6,
+        "name": "SHOCKBLAZE, Ride 24inch",
+        "image": "https://i.ibb.co/5vqMNjR/shock.png",
+        "description": "Frame | ALLOY Fork | SUNTOUR M3010-P-24, 24''x28.6 OVERSIZEx250mm, THREADLESS Head parts | NECO, H117DM, 1-1/8 AHEAD, STEEL, BLACK, 44/50mm; STACK HEIGHT 9.9mm  Handlebar ",
+        "price": "499.66",
+        "quantity": "40",
+        "supplier": "Alfie Allen"
+    }
+]

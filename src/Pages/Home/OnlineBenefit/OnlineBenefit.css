@@ -1,0 +1,23 @@
+.model-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:800px) {
+    .model-section {
+        flex-direction: column;
+    }
+
+    .model-content h1 {
+        font-size: 26px;
+    }
+
+    .model img {
+        width: 75%;
+    }
+
+    .model-content h3 {
+        font-size: 22px;
+    }
+}
