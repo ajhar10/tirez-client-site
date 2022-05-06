@@ -1,9 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
+import { Link, useNavigate } from 'react-router-dom';
 import '../Products/Products.css'
 
 const Product = ({ product }) => {
-    const { name, description, image, price, quantity, supplier } = product;
+    const { _id, name, description, image, price, quantity, supplier } = product;
+    const navigate = useNavigate();
+    const handleInventory = id => {
+        navigate(`products/${id}`)
+    }
     return (
 
         <div className="col">
@@ -19,7 +24,8 @@ const Product = ({ product }) => {
                         <p>Supplier: {supplier}</p>
                     </div>
                     <div className="text-center my-4">
-                        <Link to='/service' className="btn btn-warning">stock update</Link>
+                        {/* <Link to='/service' className="btn btn-warning">stock update</Link> */}
+                        <Button onClick={() => handleInventory(_id)} variant="primary">stock update</Button>
                     </div>
                 </div>
             </div>
