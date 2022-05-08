@@ -6,7 +6,7 @@ const Inventory = () => {
     const { id } = useParams();
     const [product, setProduct] = useState({});
     const { quantity } = product;
-    const url = `http://localhost:5000/products/${id}`;
+    const url = `https://floating-woodland-12921.herokuapp.com/products/${id}`;
     useEffect(() => {
         fetch(url)
             .then(res => res.json())
@@ -19,7 +19,7 @@ const Inventory = () => {
         const newProduct = { ...product, quantity: newQuantity }
         //copy all previous data if exist in product and setup new quantity 
         setProduct(newProduct);
-        fetch(`http://localhost:5000/products/${id}`, {
+        fetch(`https://floating-woodland-12921.herokuapp.com/products/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'
@@ -36,7 +36,7 @@ const Inventory = () => {
         const newProduct = { ...product, quantity: newQuantity }
         //copy all previous data if exist in product and setup new quantity 
         setProduct(newProduct);
-        fetch(`http://localhost:5000/products/${id}`, {
+        fetch(`https://floating-woodland-12921.herokuapp.com/products/${id}`, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'

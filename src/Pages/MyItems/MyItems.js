@@ -11,11 +11,9 @@ const MyItems = () => {
 
     // match products to user
     const myItems = products.filter(product => product.email === user.email)
-    console.log(products);
     let data;
     if (myItems) {
         data = <>
-
             <Container className="py-5">
                 <h2 className="text-center pb-4 text-uppercase text-danger"> Your Added Products</h2>
                 <Table striped bordered hover responsive>

@@ -12,7 +12,7 @@ const ManageInventory = () => {
         if (proceed) {
             // console.log('deleting user with id, ', id);
 
-            const url = `http://localhost:5000/products/${id}`
+            const url = `https://floating-woodland-12921.herokuapp.com/products/${id}`
             fetch(url, {
                 method: 'DELETE',
             })

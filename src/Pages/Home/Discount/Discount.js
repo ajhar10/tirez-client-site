@@ -16,7 +16,7 @@ const Discount = () => {
                         <h5 className="card-title">RIMINI, 24 SPEED, 600A  </h5>
                         <p className='fw-bold'>Price : <del>&euro;400 </del> <span className='px-2 text-primary'>&euro;320</span></p>
                         <div className="text-center my-4">
-                            <Link to='/service' className="btn btn-info">Buy</Link>
+                            <Link to='/addItem' className="btn btn-info">Add Item</Link>
                         </div>
                     </div>
                 </div>

@@ -5,10 +5,11 @@ import auth from '../../../firebase.init';
 import { useCreateUserWithEmailAndPassword, useUpdateProfile } from 'react-firebase-hooks/auth';
 import { async } from '@firebase/util';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import Loading from '../../Shared/Loading/Loading';
 
 const Register = () => {
     const [agree, setAgree] = useState(false);
-    const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
+    const [createUserWithEmailAndPassword, user, loading] = useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
     const [updateProfile] = useUpdateProfile(auth);
 
     const navigate = useNavigate();
@@ -16,7 +17,10 @@ const Register = () => {
     const navigateLogin = () => {
         navigate('/login');
     }
-
+    // Loading
+    if (loading) {
+        return <Loading></Loading>
+    }
 
     const handleRegister = async (event) => {
         event.preventDefault();
