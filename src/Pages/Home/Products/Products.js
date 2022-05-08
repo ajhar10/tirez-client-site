@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useProduct from '../../../custom_hook/useProduct';
 import Product from '../Product/Product';
 import './Products.css'
@@ -16,6 +17,9 @@ const Products = () => {
                     }
 
                 </div>
+            </div>
+            <div className="col-sm-12 col-md-12 col-lg-12 d-flex justify-content-center align-items-center">
+                <Link to="/inventory" className="btn btn-info">Manage Inventory</Link>
             </div>
         </div>
     );
